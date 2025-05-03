@@ -321,6 +321,46 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: cc378a7dd0b0c47859f2d8e7123bef5d, type: 3}
+--- !u!1 &718092189 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 2141986721958309908, guid: fc80b4bce296bd14d85f8e55c219061c, type: 3}
+  m_PrefabInstance: {fileID: 5627688059790372529}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &718092191
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 718092189}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d2fe5546f775c47d2820aa5e8a715f53, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _data:
+    _json: '{"nest":{"source":"Macro","macro":0,"embed":null}}'
+    _objectReferences:
+    - {fileID: 11400000, guid: bb54acde156b7468483f36f819d5da53, type: 2}
+--- !u!114 &718092192
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 718092189}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e741851cba3ad425c91ecf922cc6b379, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _data:
+    _json: '{"declarations":{"Kind":"Object","collection":{"$content":[{"name":"Asteroid","value":{"$content":0,"$type":"UnityEngine.Object"},"typeHandle":{"Identification":"UnityEngine.GameObject,
+      UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"},{"name":"spawnDelay","value":{"$content":3.0,"$type":"System.Single"},"typeHandle":{"Identification":"System.Single,
+      mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"},{"name":"spawnCooldownRemaining","value":{"$content":0.0,"$type":"System.Single"},"typeHandle":{"Identification":"System.Single,
+      mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
+    _objectReferences:
+    - {fileID: 1041172026}
 --- !u!1 &979106719
 GameObject:
   m_ObjectHideFlags: 0
@@ -491,6 +531,11 @@ BoxCollider2D:
   m_AutoTiling: 0
   m_Size: {x: 0.1, y: 0.1}
   m_EdgeRadius: 0
+--- !u!1 &1041172026 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1215402399115966768, guid: 1bf58905bde33483ba0af63a4ba9f76c, type: 3}
+  m_PrefabInstance: {fileID: 503457990}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1237033397
 GameObject:
   m_ObjectHideFlags: 0
@@ -761,7 +806,13 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 2141986721958309908, guid: fc80b4bce296bd14d85f8e55c219061c, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 718092192}
+    - targetCorrespondingSourceObject: {fileID: 2141986721958309908, guid: fc80b4bce296bd14d85f8e55c219061c, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 718092191}
   m_SourcePrefab: {fileID: 100100000, guid: fc80b4bce296bd14d85f8e55c219061c, type: 3}
 --- !u!60 &5837011819277139326
 PolygonCollider2D:
